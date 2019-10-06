@@ -1,0 +1,71 @@
+body {
+   			      background: url(../images/westminster.jpg) no-repeat center fixed; 
+                  text-align: center;
+    			background-size: cover; }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:purple;
+    color: white;
+    padding: 25px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:none; 
+    margin: 140px 0;
+    border: 10px solid #ccc;
+    cursor: pointer;
+    height: 100%;
+    width:35%;
+}
+
+button:hover {
+    background-color:black;
+        opacity: 0.8;
+
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+
+}
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    text-align: right;
+    border-radius: 10px;    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+
+
+
+footer
+{content:"";
+margin:0px;
+clear:both;
+opacity: 0.9;
+width:100%;
+text-align:center;
+font-family:"times new roman";
+color:white;
+background-color:black;}
